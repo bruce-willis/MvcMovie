@@ -238,6 +238,8 @@ L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\20160822213115_Initial.Design
 L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\ApplicationDbContextModelSnapshot.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\ApplicationUser.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\Movie.cs
+L:\Work\jock\MvcMovie\src\MvcMovie\Models\MovieGenreViewModel.cs
+L:\Work\jock\MvcMovie\src\MvcMovie\Models\SeedData.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\AccountViewModels\ForgotPasswordViewModel.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\AccountViewModels\LoginViewModel.cs
