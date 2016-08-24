@@ -235,6 +235,8 @@ L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\00000000000000_CreateIdentity
 L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\20160822213115_Initial.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\20160822213115_Initial.Designer.cs
+L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\20160823194808_Rating.cs
+L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\20160823194808_Rating.Designer.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Data\Migrations\ApplicationDbContextModelSnapshot.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\ApplicationUser.cs
 L:\Work\jock\MvcMovie\src\MvcMovie\Models\Movie.cs

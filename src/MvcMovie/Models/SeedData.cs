@@ -13,11 +13,11 @@ namespace MvcMovie.Models
       using (var context = new ApplicationDbContext(
           serviceProvider.GetRequiredService<DbContextOptions<ApplicationDbContext>>()))
       {
-        // Look for any movies.
+        //Look for any movies.
         if (context.Movie.Any())
-        {
-          return;   // DB has been seeded
-        }
+          {
+            return;   // DB has been seeded
+          }
 
         context.Movie.AddRange(
              new Movie
@@ -25,6 +25,7 @@ namespace MvcMovie.Models
                Title = "When Harry Met Sally",
                ReleaseDate = DateTime.Parse("1989-1-11"),
                Genre = "Romantic Comedy",
+               Rating = "R",
                Price = 7.99M
              },
 
@@ -33,6 +34,7 @@ namespace MvcMovie.Models
                Title = "Ghostbusters ",
                ReleaseDate = DateTime.Parse("1984-3-1"),
                Genre = "Comedy",
+               Rating = "R",
                Price = 8.99M
              },
 
@@ -41,6 +43,7 @@ namespace MvcMovie.Models
                Title = "Ghostbusters 2",
                ReleaseDate = DateTime.Parse("1986-2-2"),
                Genre = "Comedy",
+               Rating = "R",
                Price = 9.99M
              },
 
@@ -49,6 +52,7 @@ namespace MvcMovie.Models
              Title = "Rio Bravo",
              ReleaseDate = DateTime.Parse("1959-4-15"),
              Genre = "Western",
+             Rating = "R",
              Price = 3.99M
            }
         );
